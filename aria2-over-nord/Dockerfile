@@ -13,3 +13,4 @@ VOLUME ["/data", "/etc/aria2"]
 EXPOSE 6800 80
 ENTRYPOINT /usr/bin/entrypoint.sh
 COPY entrypoint.sh /usr/bin/entrypoint.sh
+COPY start-ovpn.sh /usr/bin/start-ovpn.sh
